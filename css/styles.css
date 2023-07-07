@@ -69,11 +69,6 @@ a {
 
 .
 /* Base styles */
-
-.title {
-}
-.title-accent {
-}
 .subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -425,6 +420,13 @@ padding: 32px 0;
 .footer-logo {
     fill: ;
 }
+.social-container {
+    margin-right: 120px;
+}
+
+
+
+
 /*Portfolio*/
 .section.portfolio {
     padding-top: 96px;
