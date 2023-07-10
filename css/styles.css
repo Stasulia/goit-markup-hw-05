@@ -437,8 +437,64 @@ a {
   fill: ;
 }
 .social-container {
-  margin-right: 120px;
+  margin-right: 80px;
 }
+.subscribe-container {
+  margin-right: 0;
+}
+.title-subscribe {
+  color: var(--accent-cl);
+  margin-bottom: 16px;
+  font-size: 16px;
+  letter-spacing: 0.32px;
+}
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+.subscribe-form-label {
+ 
+}
+.subscribe-form-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid var(--accent-cl);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: transparent;
+  padding: 8px 16px;
+  color: var(--accent-cl);
+  font-size: 12px;
+}
+.subscribe-form-input::placeholder {
+  color: currentColor;
+}
+.subscribe-icon {
+  fill: #ffffff;
+}
+
+.subscribe-btn {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+color: var(--accent-cl);
+background-color: var(--blue-accent-cl);
+letter-spacing: 0.04em;
+width: 165px;
+height: 40px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+gap: 16px;
+padding: 8px 24px;
+margin: 0 auto;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+
+border: none;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 
 /*Portfolio*/
 .section.portfolio {
@@ -460,9 +516,9 @@ a {
   padding-bottom: 12px;
   padding-left: 24px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
@@ -702,9 +758,6 @@ a {
   letter-spacing: 0.32px;
 }
 
-.form-name {
-}
-
 .modal-form-label {
   position: relative;
   display: block;
@@ -810,6 +863,10 @@ a {
   color: #8E8F99;
   font-size: 12px;
   letter-spacing: 0.48px;
+  user-select: none;
 }
 
-.modal-form-link {}
+.modal-form-link {
+  color: var(--blue-accent-cl);
+  text-decoration: underline;
+}
