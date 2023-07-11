@@ -870,7 +870,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .modal-form-checkbox:checked + .modal-form-custom-checkbox {
   background-color: #404BBF;
   border: none;
-  fill: #F4F4FD;;
+  fill: #F4F4FD;
 }
 
 .modal-form-checkbox-icon {
